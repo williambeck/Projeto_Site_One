@@ -1,6 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+  @font-face {
+    font-family: 'sofiapro' ;
+    src: url('/sofiapro.ttf') format('truetype');
+  }
+
+
  
 
   body {
@@ -10,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html, body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sofiapro ,Arial, Helvetica, sans-serif;
     text-align: center;
   }
 `;
