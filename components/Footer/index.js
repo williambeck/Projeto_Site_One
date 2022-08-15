@@ -1,7 +1,9 @@
+import { Container } from "../Footer/styles";
+
 export default function Footer() {
     return(
-        <div classname='footer'>
+        <Container>
             <p>Copyright &copy; 2022</p>
-        </div>
+        </Container>
     )
 }

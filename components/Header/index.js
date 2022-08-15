@@ -1,15 +1,15 @@
-import { Background, Container, Content } from "./styles";
+import { Background, Container, Content, Banner } from "./styles";
 import Image from "next/image";
 
  function Header() {
     return (
         <Container>
-            <div className="banner">
-                <Image 
+            
+                {/*<Image 
                 src="/imagens/bg-3.jpg"
-                width="1496" 
+                width="1600" 
                 height="650" 
-                alt="background"/>
+    alt="background"/>*/}
                 <nav> 
                     <li><a href="/">Início</a></li>
                     <li><a href="/projetos">Projetos</a></li>
@@ -19,7 +19,7 @@ import Image from "next/image";
                     <h1>Curso Web Fundamentos</h1>
                     <p>Aprenda HTML, CSS e Javascript</p>
                 </Content>
-            </div>
+            
         </Container>
     )
 }
