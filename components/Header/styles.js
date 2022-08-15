@@ -36,8 +36,7 @@ text-align: right;
 
    &:hover {
       background: rgba(255, 0, 0, 0.6)
-   }
-   
+   } 
    
 }
    
@@ -58,8 +57,13 @@ margin-top: 150px;
 
 > p {
    color: white;
-   text-align: center;
    font-size: 18px;
+   text-align: center;
+   background-color: rgba(255, 0, 0, 0.4);
+   border-bottom: 2px solid white;
+   display: inline-block;
+   letter-spacing: 2px;  
+  
 }   
 `;
 

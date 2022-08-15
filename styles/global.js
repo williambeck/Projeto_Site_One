@@ -18,6 +18,7 @@ const GlobalStyle = createGlobalStyle`
 
   html, body {
     font-family: sofiapro ,Arial, Helvetica, sans-serif;
+    text-align: center;
    
   }
 
