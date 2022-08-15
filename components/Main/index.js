@@ -1,8 +1,11 @@
+import { Container, Contentsection } from "../Main/styles";
 
 
 function Main() {
     return (
-        <><section classname='content_section'>
+        <>
+        <Container>
+        <Contentsection>
             <div classname='card'>
                 <img src="imagens/card_01.png" alt=""/>
                 <p>Seletores</p>
@@ -17,7 +20,7 @@ function Main() {
                 <img src="imagens/card_03.jpg" alt="" />
                 <p>Fontes</p>
             </div>
-        </section>
+        </Contentsection>
         
         <section classname="content_section">
                 <article>
@@ -25,7 +28,10 @@ function Main() {
                     <p>Paragrafo 1</p>
                     <p>Paragrafo 2</p>
                 </article>
-            </section></>
+            </section>
+            
+            </Container></>
+
 
     )
 }

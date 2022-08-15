@@ -5,6 +5,7 @@ export const Container = styled.div`
 background-image: url(../imagens/bg-3.jpg);
 height: 500px;
 background-position: right center;
+background-size: cover;
 
 
 
@@ -26,7 +27,7 @@ margin-top: 150px;
 }
 
 > p {
-   color: black;
+   color: white;
    text-align: center;
    font-size: 18px;
 }   

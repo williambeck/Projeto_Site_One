@@ -1,15 +1,11 @@
-import { Background, Container, Content, Banner } from "./styles";
-import Image from "next/image";
+import { Container, Content } from "./styles";
+
 
  function Header() {
     return (
         <Container>
             
-                {/*<Image 
-                src="/imagens/bg-3.jpg"
-                width="1600" 
-                height="650" 
-    alt="background"/>*/}
+                
                 <nav> 
                     <li><a href="/">Início</a></li>
                     <li><a href="/projetos">Projetos</a></li>
