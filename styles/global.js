@@ -13,7 +13,8 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #4CABCD;
+    //background: #4CABCD;
+    background: #ccc;
   }
 
   html, body {
@@ -24,6 +25,7 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     text-decoration: none;
+    box-sizing: border-box;
     
   }
 `;
