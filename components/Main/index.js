@@ -24,7 +24,7 @@ function Main() {
         
         <Contentsection>
                 <article>
-                    <header classname="content-header"><h2>Titulo do article</h2></header>
+                    <header classname="content-header"><h2>Titulo do Article</h2></header>
                     <p>Paragrafo 1</p>
                     <p>Paragrafo 2</p>
                 </article>
